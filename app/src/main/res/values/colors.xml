@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F89406</color>
+    <color name="colorPrimaryDark">#F89406</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="list_row_start_color">#fafbfc</color>
+    <color name="list_row_end_color">#fafbfc</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+</resources>

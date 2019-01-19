@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_home1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/logopng1" />
+
+    <ImageView
+        android:id="@+id/btn_masak"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_cook1" />
+
+    <ImageView
+        android:layout_width="232dp"
+        android:layout_height="75dp"
+        android:src="@drawable/imgview1"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:textSize="25sp"
+        android:fontFamily="@font/bree_serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mari buat masakan"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="-80sp"
+        android:textColor="@android:color/white"
+        tools:ignore="MissingPrefix" />
+
+    <TextView
+        android:fontFamily="@font/bree_serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rumah ala restoran"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0sp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"/>
+
+</LinearLayout>
